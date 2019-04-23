@@ -1,0 +1,121 @@
+Python 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:14:34) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+=========== RESTART: F:\Assignments\A1_0300025357\A1_0300025357.py ===========
+>>> #testing question 1
+>>> mh2kh(5)
+8.045
+>>> mh2kh(80)
+128.72
+>>> 
+>>> #testing question 2
+>>> pythogorean_pair(3,-4)
+True
+>>> pythogorean_pair(2,17)
+False
+>>> pythogorean_pair(24,7)
+True
+>>> 
+>>> #testing question 3
+>>> in_out(0,0, 4)
+Enter a non-negative X parameter of point: 0
+Enter a non-negative Y parameter of point: 1.2
+True
+>>> in_out(0,5,15)
+Enter a non-negative X parameter of point: 20
+Enter a non-negative Y parameter of point: 2
+False
+>>> 
+>>> #testing question 4
+>>> safe(96)
+False
+>>> safe(45)
+False
+>>> safe(11)
+True
+>>> 
+>>> #testing question 5
+>>> quote_maker("hello world", "sally", 2017)
+'In 2017, a person called sally said: "hello world"'
+>>> quote_maker("I'm done this assignment","sally","the morning")
+'In the morning, a person called sally said: "I\'m done this assignment"'
+>>> 
+>>> #testing question 6
+>>> quote_displayer()
+Enter a quote: "Hello World"
+Enter name of person whose quote was mentioned: Sally
+Enter the year said quote was told by person: 2017
+In 2017, a person called Sally said: ""Hello World""
+>>> 
+>>> #testing question 7
+>>> rps_winner()
+What choice did player 1 make?
+Type one of the following options: rock, paper, scissors: rock
+What choice did player 2 make?
+Type one of the following options: rock, paper, scissors: paper
+player 1 beat player 2? False
+players tied? False
+>>> rps_winner()
+What choice did player 1 make?
+Type one of the following options: rock, paper, scissors: scissors
+What choice did player 2 make?
+Type one of the following options: rock, paper, scissors: scissors
+player 1 beat player 2? False
+players tied? True
+>>> 
+>>> #testing question 8
+>>> fun(10)
+0.2784858380767092
+>>> fun(7)
+0.25
+>>> fun(10)
+0.2784858380767092
+>>> 
+>>> #testing question 9
+>>> ascii_name_plaque(".*. S A L L Y .*.")
+***************************
+*                         *
+*  __.*. S A L L Y .*.__  *
+*                         *
+***************************
+>>> ascii_name_plaque("hello")
+***************
+*             *
+*  __hello__  *
+*             *
+***************
+>>>  
+>>> #testing question 10
+>>> draw_bike()
+>>> 
+>>> #testing question 11
+>>> 
+>>> alogical(5.4)
+3
+>>> alogical(100)
+7
+>>> alogical(1245323142)
+31
+>>> 
+>>> 
+>>> #testing question 12
+>>> time_format(23,43)
+"15 to 0 o'clock"
+>>> time_format(4,0)
+"4 o'clock"
+>>> time_format(5,30)
+"half past 5 o'clock">>> 
+>>> #test question 13
+>>> cad_cashier(13.54, 15.03)
+1.5
+>>> 
+>>> cad_cashier(1023.23, 1235.34)
+212.1
+>>> 
+>>> #testing question 14
+>>> min_CAD_coins(13.54,15.03)
+(0, 1, 2, 0, 2)
+>>> 
+ 
+
+
